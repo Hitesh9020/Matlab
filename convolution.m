@@ -1,0 +1,17 @@
+x=input("enter the seq 1: ");
+y=input("enter the seq 2: ");
+z=conv(x,y);
+figure;
+subplot(3,1,1);
+stem(x);
+xlabel('(x) n');
+ylabel('Amplitude');
+subplot(3,1,2);
+stem(y);
+xlabel('(y) n');
+ylabel('Amplitude');
+subplot(3,1,3);
+stem(z);
+xlabel('(x) n');
+ylabel('Amplitude');
+title('Convolution');
