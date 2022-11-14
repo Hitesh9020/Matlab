@@ -1,9 +1,0 @@
-A=1;
-t=0:0.01:1;
-x=A*sin(2*pi*10*t);
-subplot(211);
-plot(t,x);
-xft=fft(x,1024);
-y=abs(xft);
-subplot(212);
-plot(y);
